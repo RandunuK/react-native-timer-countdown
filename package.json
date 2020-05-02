@@ -1,0 +1,72 @@
+{
+  "_from": "react-native-timer-countdown@^2.2.0",
+  "_id": "react-native-timer-countdown@2.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-M/0p31uly9N1TxpL3oZf6Mqha/zmcg/4usMTyt9dyGdhUSshNNUIacloR+Ftxg188VUj9nm/f1T1dvYw+X3YTw==",
+  "_location": "/react-native-timer-countdown",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-timer-countdown@^2.2.0",
+    "name": "react-native-timer-countdown",
+    "escapedName": "react-native-timer-countdown",
+    "rawSpec": "^2.2.0",
+    "saveSpec": null,
+    "fetchSpec": "^2.2.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-timer-countdown/-/react-native-timer-countdown-2.2.0.tgz",
+  "_shasum": "52f4ca22dced3ce5f305108c93debbcb2fe77517",
+  "_spec": "react-native-timer-countdown@^2.2.0",
+  "_where": "F:\\Rational-X\\Software\\Business\\Candela\\Candela-lms\\Mobile-rebuild\\CandelaStudent",
+  "author": {
+    "name": "Noel Yoo"
+  },
+  "bugs": {
+    "url": "https://github.com/avid21/react-native-timer-countdown/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A simple customizable countdown component for React Native",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/node": "^10.12.30",
+    "@types/react": "^16.8.7",
+    "@types/react-dom": "16.0.3",
+    "@types/react-native": "^0.56.24",
+    "prettier": "1.13.7",
+    "tslint": "^5.13.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^2.9.2"
+  },
+  "homepage": "https://github.com/avid21/react-native-timer-countdown#readme",
+  "keywords": [
+    "countdown",
+    "react-native",
+    "timer"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-timer-countdown",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avid21/react-native-timer-countdown.git"
+  },
+  "scripts": {
+    "build": "npm run ci && tsc",
+    "ci": "tsc && npm run lint && npm run prettier",
+    "lint": "tslint --project tsconfig.json --format stylish",
+    "prettier": "prettier --write '**/*.{ts,tsx,js}' --config .prettierrc"
+  },
+  "version": "2.2.0"
+}
